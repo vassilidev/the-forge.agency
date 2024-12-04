@@ -209,7 +209,7 @@
             <p class="text-lg text-gray-300 mb-6">
                 Réservez dès maintenant un appel avec notre équipe d'experts pour discuter de votre projet digital.
             </p>
-            <a href="https://calendly.com/votre_calendly" target="_blank"
+            <a href="https://calendly.com/vassili-joffroy/30min" target="_blank"
                class="bg-primary hover:bg-pink text-black font-bold py-4 px-8 rounded-full shadow-lg text-lg md:text-xl transition-all duration-300 ease-in-out transform hover:scale-105">
                 Planifiez votre appel gratuit 🚀
             </a>
