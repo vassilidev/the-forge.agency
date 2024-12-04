@@ -59,7 +59,7 @@
                 <p class="text-gray-400 mb-4">
                     Transformez vos idées en réalité digitale avec notre expertise en Laravel et PHP.
                 </p>
-                <p class="text-gray-400">&copy; 2024 Tous droits réservés.</p>
+                <p class="text-gray-400">&copy; {{ date('Y') }} Tous droits réservés.</p>
             </div>
             <!-- Quick Links -->
             <div>
@@ -76,14 +76,17 @@
                 <h4 class="text-xl font-semibold text-primary mb-4">Suivez-nous</h4>
                 <p class="text-gray-400 mb-4">Rejoignez-nous sur les réseaux sociaux :</p>
                 <div class="flex space-x-4">
-                    <a href="https://www.linkedin.com/company/the-forge-agency/" class="hover:text-primary transition">
-                        <i class="fab fa-linkedin text-2xl"></i>
+                    <a href="https://www.linkedin.com/company/the-forge-agency/" target="_blank"
+                       class="hover:text-primary transition">
+                        @svg('fab-linkedin', 'h-6 w-6')
                     </a>
-                    <a href="https://twitter.com/" class="hover:text-primary transition">
-                        <i class="fab fa-twitter text-2xl"></i>
+                    <a href="https://www.instagram.com/the.forge.agency" target="_blank"
+                       class="hover:text-primary transition">
+                        @svg('fab-instagram', 'h-6 w-6')
                     </a>
-                    <a href="https://www.instagram.com/" class="hover:text-primary transition">
-                        <i class="fab fa-instagram text-2xl"></i>
+                    <a href="https://siteeclair.fr" target="_blank"
+                       class="hover:text-primary transition">
+                        @svg('fas-bolt', 'h-6 w-6')
                     </a>
                 </div>
             </div>
@@ -91,7 +94,8 @@
         <!-- Credits -->
         <div class="text-center text-sm text-gray-400 mt-12">
             <p>
-                Réalisé avec ❤️ par <a href="#" class="hover:text-primary font-medium">TFA - The Forge Agency</a>.
+                Réalisé avec ❤️ par <a href="{{ config('app.url') }}" class="hover:text-primary font-medium">TFA - The
+                    Forge Agency</a>.
             </p>
         </div>
     </div>
