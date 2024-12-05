@@ -22,6 +22,7 @@
         <div class="hidden md:flex space-x-6 items-center">
             <a href="#about" class="hover:text-primary transition">À propos</a>
             <a href="#services" class="hover:text-primary transition">Services</a>
+            <a href="#expertise" class="hover:text-primary transition">Expertise</a>
             <a href="#process" class="hover:text-primary transition">Processus</a>
             <a href="#contact"
                class="bg-primary text-black font-semibold py-2 px-4 rounded-full hover:bg-pink transition-all duration-300 ease-in-out transform hover:scale-105">
@@ -67,6 +68,7 @@
                 <ul class="space-y-3">
                     <li><a href="#about" class="hover:text-primary transition">À propos</a></li>
                     <li><a href="#services" class="hover:text-primary transition">Services</a></li>
+                    <li><a href="#expertise" class="hover:text-primary transition">Expertise</a></li>
                     <li><a href="#process" class="hover:text-primary transition">Processus</a></li>
                     <li><a href="#contact" class="hover:text-primary transition">Contact</a></li>
                 </ul>
@@ -77,15 +79,15 @@
                 <p class="text-gray-400 mb-4">Rejoignez-nous sur les réseaux sociaux :</p>
                 <div class="flex space-x-4">
                     <a href="https://www.linkedin.com/company/the-forge-agency/" target="_blank"
-                       class="hover:text-primary transition">
+                       class="hover:text-blue-500 transition">
                         @svg('fab-linkedin', 'h-6 w-6')
                     </a>
                     <a href="https://www.instagram.com/the.forge.agency" target="_blank"
-                       class="hover:text-primary transition">
+                       class="hover:text-pink transition">
                         @svg('fab-instagram', 'h-6 w-6')
                     </a>
                     <a href="https://siteeclair.fr" target="_blank"
-                       class="hover:text-primary transition">
+                       class="hover:text-yellow transition">
                         @svg('fas-bolt', 'h-6 w-6')
                     </a>
                 </div>

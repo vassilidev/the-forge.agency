@@ -68,7 +68,7 @@
         </div>
     </section>
 
-    <section id="services" class="py-20 bg-background text-white">
+    <section id="services" class="py-20 bg-gradient-to-b from-background to-black text-white">
         <div class="max-w-7xl mx-auto px-6">
             <h2 class="text-center text-3xl md:text-4xl font-extrabold mb-10">
                 Nos services
@@ -91,45 +91,58 @@
         </div>
     </section>
 
-    <section id="portfolio" class="py-20 bg-current-line text-white">
+    <section id="site-vitrine" class="py-20 bg-black text-white">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-center text-3xl md:text-4xl font-extrabold mb-10">
-                Nos réalisations
-            </h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Titre principal -->
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-extrabold">
+                    Découvrez notre offre
+                    <span class="relative inline-block text-[#9c6d1f]">
+                    Site Éclair ⚡
+                    <div class="absolute -bottom-2 left-0 w-full h-[5px] bg-[#9c6d1f] rotate-[-2deg] rounded-md"></div>
+                </span>
+                </h2>
+                <p class="text-lg text-gray-300 mt-4">
+                    Une solution rapide et professionnelle pour créer votre site vitrine en seulement
+                    <span class="text-[#9c6d1f] font-bold">5 jours</span>. Idéal pour les <strong>TPE</strong>, <strong>PME</strong>
+                    et <strong>entrepreneurs</strong>.
+                </p>
+            </div>
+            <!-- Contenu de la section -->
+            <div class="grid md:grid-cols-2 items-center gap-12">
+                <!-- Image -->
                 <div class="relative group">
-                    <img src="https://plus.unsplash.com/premium_photo-1681566925294-7ff6eba5a9c2?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                         alt="Projet 1" class="rounded-lg shadow-lg">
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
-                        <p class="text-white text-lg font-bold">Projet 1</p>
-                    </div>
+                    <a href="https://siteeclair.fr" target="_blank"
+                       class="block overflow-hidden rounded-lg shadow-lg transform transition-transform hover:scale-105">
+                        <img src="{{ asset('siteeclair.png') }}" alt="Site Éclair Screenshot" class="w-full h-auto">
+                    </a>
                 </div>
-                <div class="relative group">
-                    <img src="https://plus.unsplash.com/premium_photo-1681566925294-7ff6eba5a9c2?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                         alt="Projet 2" class="rounded-lg shadow-lg">
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
-                        <p class="text-white text-lg font-bold">Projet 2</p>
-                    </div>
-                </div>
-                <div class="relative group">
-                    <img src="https://plus.unsplash.com/premium_photo-1681566925294-7ff6eba5a9c2?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                         alt="Projet 3" class="rounded-lg shadow-lg">
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
-                        <p class="text-white text-lg font-bold">Projet 3</p>
-                    </div>
-                </div>
-                <div class="relative group">
-                    <img src="https://plus.unsplash.com/premium_photo-1681566925294-7ff6eba5a9c2?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                         alt="Projet 4" class="rounded-lg shadow-lg">
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
-                        <p class="text-white text-lg font-bold">Projet 4</p>
+                <!-- Texte -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        Lancez votre site vitrine avec <span class="text-[#9c6d1f] font-bold">Site Éclair ⚡</span>
+                    </h3>
+                    <p class="text-gray-300 mb-6">
+                        Profitez d’une solution clé en main, alliant performance, design et simplicité :
+                    </p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Design moderne et personnalisé pour refléter votre identité</li>
+                        <li>Hébergement et nom de domaine inclus pour plus de simplicité</li>
+                        <li>Livraison express en seulement <span class="text-[#9c6d1f] font-bold">5 jours</span></li>
+                        <li>Modifications illimitées après la mise en ligne</li>
+                    </ul>
+                    <div class="mt-6">
+                        <a href="https://siteeclair.fr" target="_blank"
+                           class="bg-[#9c6d1f] hover:bg-[#b07e26] text-black font-bold py-3 px-6 rounded-full shadow-lg transform transition-transform hover:scale-105">
+                            Découvrir Site Éclair ⚡
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="expertise" class="py-20 bg-background text-white">
+    <section id="expertise" class="py-20 bg-gradient-to-b from-black to-background text-white">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight">
@@ -166,7 +179,7 @@
         </div>
     </section>
 
-    <section id="method" class="py-20 bg-current-line text-white">
+    <section id="process" class="py-20 bg-gradient-to-b from-background to-current-line text-white">
         <div class="max-w-7xl mx-auto px-6">
             <h2 class="text-center text-3xl md:text-4xl font-bold mb-6">
                 Notre <span class="text-primary">processus simplifié</span>
@@ -201,7 +214,7 @@
         </div>
     </section>
 
-    <section id="contact" class="py-20 bg-background/10 text-white">
+    <section id="contact" class="py-20 bg-gradient-to-b from-current-line to-background text-white">
         <div class="max-w-7xl mx-auto text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-8">
                 Prêt à transformer vos idées en réalité ?
