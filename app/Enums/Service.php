@@ -5,11 +5,11 @@ namespace App\Enums;
 enum Service: string
 {
     case WEB_DEVELOPMENT = 'Développement Web sur Mesure';
-    case SCRAPING_AUTOMATION = 'Scraping & Automatisation';
     case DIGITAL_TRANSFORMATION = 'Transformation Digitale';
-    case MAINTENANCE_SUPPORT = 'Maintenance & Support';
-    case TECH_INCUBATOR = 'Incubateur Tech & Tech for Equity';
+    case TECH_INCUBATOR = 'Tech for Equity';
     case SITE_VITRINE = 'Site Vitrine';
+    case SCRAPING_AUTOMATION = 'Scraping & Automatisation';
+    case MAINTENANCE_SUPPORT = 'Maintenance & Support';
 
     public function icon(): string
     {
@@ -26,12 +26,12 @@ enum Service: string
     public function description(): string
     {
         return match ($this) {
-            self::WEB_DEVELOPMENT => 'Création de sites web personnalisés répondant précisément à vos besoins.',
-            self::SCRAPING_AUTOMATION => 'Optimisez vos processus avec nos solutions de scraping et d\'automatisation.',
-            self::DIGITAL_TRANSFORMATION => 'Accompagnement sur mesure pour votre transition numérique.',
-            self::MAINTENANCE_SUPPORT => 'Un support réactif et une maintenance continue pour vos applications.',
-            self::TECH_INCUBATOR => 'Soutien aux startups innovantes via notre incubateur et des services de "Tech for Equity".',
-            self::SITE_VITRINE => 'Lancez un site vitrine moderne, élégant et performant pour afficher votre entreprise en ligne.',
+            self::WEB_DEVELOPMENT => 'Nous concevons des sites web uniques, performants et parfaitement adaptés à vos besoins spécifiques.',
+            self::SCRAPING_AUTOMATION => 'Exploitez vos données et automatisez vos processus grâce à nos solutions sur mesure.',
+            self::DIGITAL_TRANSFORMATION => 'Transformez votre entreprise avec notre expertise en transition digitale stratégique.',
+            self::MAINTENANCE_SUPPORT => 'Profitez d’un support réactif et d’une maintenance proactive pour assurer la pérennité de vos applications.',
+            self::TECH_INCUBATOR => 'Nous accompagnons les startups avec un soutien stratégique et des services innovants en "Tech for Equity".',
+            self::SITE_VITRINE => 'Nous créons des sites vitrines élégants, performants et entièrement personnalisés pour booster votre visibilité en ligne.',
         };
     }
 }
