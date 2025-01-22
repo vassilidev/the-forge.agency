@@ -14,7 +14,7 @@
             <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
                 Votre partenaire pour des
                 <span class="relative inline-block">
-                <span class="text-primary">solutions digitales innovantes</span>
+                <span class="text-primary">solutions digitales innovantes.</span>
                 <div class="absolute -bottom-2 left-0 w-full h-[5px] bg-primary rotate-[-2deg] rounded-md"></div>
             </span>
             </h1>
