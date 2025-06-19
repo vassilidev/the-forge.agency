@@ -77,22 +77,23 @@
         <div class="pt-8 border-t border-[#44475a] grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Paris -->
             <div class="border-l border-[#44475a] pl-6">
-                <h4 class="text-xl font-semibold mb-2">The Forge Agency Paris</h4>
+                <h4 class="text-xl font-semibold mb-2">The Forge Agency - Paris</h4>
                 <p class="italic text-sm">1 rue de Stockholm, 75008 Paris</p>
                 <p class="font-bold mt-4">Contact</p>
                 <p class="mt-1">
-                    <a href="#" class="hover:text-[#ff79c6] transition">07 60 48 73 34</a><br>
-                    <a href="#" class="hover:text-[#ff79c6] transition">paris@the-forge.agency</a>
+                    <a href="tel:0760487334" class="hover:text-[#ff79c6] transition">07 60 48 73 34</a><br>
+                    <a href="mailto:paris@the-forge.agency" class="hover:text-[#ff79c6] transition">paris@the-forge.agency</a>
                 </p>
             </div>
             <!-- Suresnes -->
             <div class="border-l border-[#44475a] pl-6">
-                <h4 class="text-xl font-semibold mb-2">The Forge Agency Suresnes</h4>
+                <h4 class="text-xl font-semibold mb-2">The Forge Agency - Suresnes</h4>
                 <p class="italic text-sm">8 rue du Tertre, 92150 Suresnes</p>
                 <p class="font-bold mt-4">Contact</p>
                 <p class="mt-1">
-                    <a href="#" class="hover:text-[#ff79c6] transition">07 60 48 73 34</a><br>
-                    <a href="#" class="hover:text-[#ff79c6] transition">suresnes@the-forge.agency</a>
+                    <a href="tel:0760487334" class="hover:text-[#ff79c6] transition">07 60 48 73 34</a><br>
+                    <a href="mailto:suresnes@the-forge.agency"
+                       class="hover:text-[#ff79c6] transition">suresnes@the-forge.agency</a>
                 </p>
             </div>
         </div>
