@@ -34,7 +34,7 @@
                     <li><a href="#services" class="hover:text-[#ff79c6] transition">Services</a></li>
                     <li><a href="#why-tfa" class="hover:text-[#ff79c6] transition">Pourquoi TFA ?</a></li>
                     <li><a href="#technos" class="hover:text-[#ff79c6] transition">Technologies</a></li>
-                    <li><a href="#contact" class="hover:text-[#ff79c6] transition">Contact</a></li>
+                    <li><a href="https://calendly.com/vassili-joffroy/30min" target="_blank" rel="noopener noreferrer" class="hover:text-[#ff79c6] transition">Prendre RDV</a></li>
                 </ul>
             </div>
             <!-- Expertises -->

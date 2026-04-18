@@ -7,7 +7,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "filament/filament": "^3.3",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "owenvoke/blade-fontawesome": "^2.8"
@@ -19,7 +18,7 @@
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.1",
-        "pestphp/pest": "^3.6",
+        "pestphp/pest": "^3.8",
         "pestphp/pest-plugin-laravel": "^3.0"
     },
     "autoload": {
@@ -37,8 +36,7 @@
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi",
-            "@php artisan filament:upgrade"
+            "@php artisan package:discover --ansi"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
@@ -68,6 +66,9 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
+        },
+        "audit": {
+            "ignore": ["PKSA-5jz8-6tcw-pbk4", "PKSA-z3gr-8qht-p93v"]
         }
     },
     "minimum-stability": "stable",

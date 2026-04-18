@@ -40,11 +40,13 @@
             <a href="#why-tfa" class="text-white hover:text-pink-300 transition-colors">Pourquoi TFA&nbsp;?</a>
             <a href="#technos" class="text-white hover:text-pink-300 transition-colors">Technologies</a>
             <a
-                    href="#contact"
+                    href="https://calendly.com/vassili-joffroy/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     class="btn-contact bg-pink-400 text-white font-extrabold rounded transition-all duration-300"
                     :class="scrolled ? 'px-4 py-2 text-sm' : 'px-6 py-3 text-base hover:scale-105'"
             >
-                Contact
+                Prendre RDV
             </a>
         </nav>
 
@@ -78,7 +80,7 @@
             <a href="#services" class="block text-white px-2 py-2 rounded hover:bg-gray-800">Services</a>
             <a href="#why-tfa" class="block text-white px-2 py-2 rounded hover:bg-gray-800">Pourquoi TFA&nbsp;?</a>
             <a href="#technos" class="block text-white px-2 py-2 rounded hover:bg-gray-800">Technologies</a>
-            <a href="#contact" class="block btn-contact bg-pink-400 text-white font-extrabold text-center rounded-lg px-4 py-2 hover:bg-pink-500 transition">Contact</a>
+            <a href="https://calendly.com/vassili-joffroy/30min" target="_blank" rel="noopener noreferrer" class="block btn-contact bg-pink-400 text-white font-extrabold text-center rounded-lg px-4 py-2 hover:bg-pink-500 transition">Prendre RDV</a>
         </div>
     </nav>
 </header>
